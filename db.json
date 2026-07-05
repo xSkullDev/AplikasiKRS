@@ -1,0 +1,114 @@
+{
+  "kelas": [
+    {
+      "mataKuliahId": 1,
+      "dosenId": 2,
+      "mahasiswaIds": [
+        1123,
+        23123
+      ],
+      "namaKelas": "Pemrograman Web",
+      "id": 1
+    },
+    {
+      "mataKuliahId": 2,
+      "dosenId": 1,
+      "mahasiswaIds": [
+        1123,
+        23123
+      ],
+      "namaKelas": "Basis Data",
+      "id": 2
+    }
+  ],
+  "mahasiswa": [
+    {
+      "id": 1123,
+      "nama": "Andi",
+      "nim": "A11.2020.00001",
+      "selectedMataKuliahIds": [
+        2,
+        3
+      ],
+      "selectedSks": 4,
+      "selectedKelasIds": [
+        2
+      ]
+    },
+    {
+      "nim": "A11.2020.00002",
+      "nama": "Budi",
+      "id": 23123
+    }
+  ],
+  "mataKuliah": [
+    {
+      "nama": "Pemrograman Web",
+      "sks": 4,
+      "deskripsi": "Dasar pemrograman web modern",
+      "mahasiswaIds": [
+        1123,
+        23123
+      ],
+      "id": 1
+    },
+    {
+      "nama": "Basis Data",
+      "sks": 4,
+      "deskripsi": "Konsep dan implementasi basis data",
+      "mahasiswaIds": [
+        1123,
+        23123
+      ],
+      "id": 2
+    },
+    {
+      "nama": "Jaringan Komputer",
+      "sks": 3,
+      "deskripsi": "Dasar jaringan komputer",
+      "mahasiswaIds": [
+        1123,
+        23123
+      ],
+      "id": 3
+    },
+    {
+      "nama": "Dasar Pemrograman",
+      "sks": 4,
+      "deskripsi": "Algoritma dasar pemrograman",
+      "mahasiswaIds": [
+        1123,
+        23123
+      ],
+      "id": 4
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "name": "Admin 1",
+      "email": "admin@mail.com",
+      "password": "admin123",
+      "role": "admin",
+      "permission": [
+        "dashboard.page",
+        "mahasiswa.page",
+        "mahasiswa.read",
+        "mahasiswa.create",
+        "mahasiswa.update",
+        "mahasiswa.delete"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Mahasiswa 1",
+      "email": "mahasiswa@mail.com",
+      "password": "mahasiswa123",
+      "role": "mahasiswa",
+      "permission": [
+        "krs.page",
+        "krs.read"
+      ]
+    }
+  ]
+}

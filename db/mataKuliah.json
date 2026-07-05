@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "nama": "Pemrograman Web",
+    "sks": 3,
+    "deskripsi": "Dasar pemrograman web modern",
+    "mahasiswaIds": []
+  },
+  {
+    "id": 2,
+    "nama": "Basis Data",
+    "sks": 4,
+    "deskripsi": "Konsep dan implementasi basis data",
+    "mahasiswaIds": []
+  }
+]
