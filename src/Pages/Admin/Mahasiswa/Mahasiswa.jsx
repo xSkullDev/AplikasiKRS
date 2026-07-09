@@ -6,7 +6,7 @@ import { useState } from "react";
 import { useAuthStateContext } from "@/Utils/Contexts/AuthContexts";
 import MahasiswaTable from "./MahasiswaTable";
 import MahasiswaModal from "./MahasiswaModal";
-import { confirmUpdate, confirmDelete } from "@/Utils/Helpers/swalHelpers";
+import { confirmUpdate, confirmDelete } from "@/Utils/Helpers/SwalHelpers";
 import { toastError, toastSuccess } from "@/Utils/Helpers/ToastHelpers";
 import { useMahasiswa, useStoreMahasiswa, useUpdateMahasiswa, useDeleteMahasiswa } from "@/Utils/Hooks/useMahasiswa";
 
