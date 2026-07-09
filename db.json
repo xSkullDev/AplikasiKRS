@@ -1,86 +1,31 @@
 {
-  "kelas": [
-    {
-      "mataKuliahId": 1,
-      "dosenId": 2,
-      "mahasiswaIds": [
-        1123,
-        23123
-      ],
-      "namaKelas": "Pemrograman Web",
-      "id": 1
-    },
-    {
-      "mataKuliahId": 2,
-      "dosenId": 1,
-      "mahasiswaIds": [
-        1123,
-        23123
-      ],
-      "namaKelas": "Basis Data",
-      "id": 2
-    }
-  ],
+  "kelas": [],
   "mahasiswa": [
     {
       "id": 1123,
       "nama": "Andi",
-      "nim": "A11.2020.00001",
-      "selectedMataKuliahIds": [
-        2,
-        3
-      ],
-      "selectedSks": 4,
-      "selectedKelasIds": [
-        2
-      ]
+      "nim": "A11.2020.00001"
     },
     {
-      "nim": "A11.2020.00002",
+      "id": 23123,
       "nama": "Budi",
-      "id": 23123
+      "nim": "A11.2020.00002"
     }
   ],
   "mataKuliah": [
     {
+      "id": 1,
       "nama": "Pemrograman Web",
-      "sks": 4,
+      "sks": 3,
       "deskripsi": "Dasar pemrograman web modern",
-      "mahasiswaIds": [
-        1123,
-        23123
-      ],
-      "id": 1
+      "mahasiswaIds": []
     },
     {
+      "id": 2,
       "nama": "Basis Data",
       "sks": 4,
       "deskripsi": "Konsep dan implementasi basis data",
-      "mahasiswaIds": [
-        1123,
-        23123
-      ],
-      "id": 2
-    },
-    {
-      "nama": "Jaringan Komputer",
-      "sks": 3,
-      "deskripsi": "Dasar jaringan komputer",
-      "mahasiswaIds": [
-        1123,
-        23123
-      ],
-      "id": 3
-    },
-    {
-      "nama": "Dasar Pemrograman",
-      "sks": 4,
-      "deskripsi": "Algoritma dasar pemrograman",
-      "mahasiswaIds": [
-        1123,
-        23123
-      ],
-      "id": 4
+      "mahasiswaIds": []
     }
   ],
   "user": [
