@@ -1,5 +1,5 @@
 import Button from "@/Pages/Admin/Components/Button";
-import { confirmLogout } from "@/Utils/Helpers/swalHelpers";
+import { confirmLogout } from "@/Utils/Helpers/SwalHelpers";
 
 import { useAuthStateContext } from "@/Utils/Contexts/AuthContexts";
 
