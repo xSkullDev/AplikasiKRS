@@ -7,7 +7,7 @@ import { useCreateKelas, useDeleteKelas, useKelas, useUpdateKelas } from "@/Util
 import { useMahasiswa } from "@/Utils/Hooks/useMahasiswa";
 import { useMataKuliah } from "@/Utils/Hooks/useMataKuliah";
 import { toastError } from "@/Utils/Helpers/ToastHelpers";
-import { confirmDelete, confirmUpdate } from "@/Utils/Helpers/swalHelpers";
+import { confirmDelete, confirmUpdate } from "@/Utils/Helpers/SwalHelpers";
 
 const initialForm = {
   id: null,
