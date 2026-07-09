@@ -6,7 +6,7 @@ import { useMahasiswa, useUpdateMahasiswa } from "@/Utils/Hooks/useMahasiswa";
 import { useMataKuliah } from "@/Utils/Hooks/useMataKuliah";
 import { useKelas } from "@/Utils/Hooks/useKelas";
 import { toastError, toastSuccess } from "@/Utils/Helpers/ToastHelpers";
-import { confirmUpdate } from "@/Utils/Helpers/swalHelpers";
+import { confirmUpdate } from "@/Utils/Helpers/SwalHelpers";
 import { useAuthStateContext } from "@/Utils/Contexts/AuthContexts";
 
 const MahasiswaMataKuliah = () => {
