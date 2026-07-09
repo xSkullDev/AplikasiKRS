@@ -12,7 +12,8 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: process.env.VITE_BASE_PATH || "/AplikasiKRS",
+  // DIUBAH: Menggunakan '/' agar aset dibaca langsung dari root domain di Vercel
+  base: '/', 
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
