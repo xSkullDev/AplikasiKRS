@@ -7,7 +7,7 @@ import { useMahasiswa } from "@/Utils/Hooks/useMahasiswa";
 import { useMataKuliah, useCreateMataKuliah, useDeleteMataKuliah, useUpdateMataKuliah } from "@/Utils/Hooks/useMataKuliah";
 import MahasiswaMataKuliah from "./MahasiswaMataKuliah";
 import MataKuliahModal from "./MataKuliahModal";
-import { confirmDelete } from "@/Utils/Helpers/swalHelpers";
+import { confirmDelete } from "@/Utils/Helpers/SwalHelpers";
 
 const MataKuliah = () => {
   const { user } = useAuthStateContext();
